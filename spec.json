@@ -1,0 +1,50 @@
+{
+    "name":  "nsfw-scan",
+    "logo":  "🧯",
+    "exe":  "NsfwScan.exe",
+    "desc":  "Free, open-source NSFW scanner for Windows — local ONNX classifier flags and quarantines images, nothing uploaded. 100 MB portable, MIT.",
+    "topics":  [
+                   "nsfw-detection",
+                   "content-moderation",
+                   "image-classifier",
+                   "dataset-cleaning",
+                   "onnx",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "quarantine",
+                   "batch-scan",
+                   "threshold",
+                   "offline",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Local classifier inference** — ONNX model runs on your GPU or CPU; images are never uploaded anywhere",
+                     "✅ **Threshold control** — one slider separates safe, borderline and flagged, with per-class scores shown",
+                     "✅ **Quarantine folder** — flagged files moved with a manifest, so nothing is deleted before you look",
+                     "✅ **Keyboard review grid** — arrow through results, keep or restore each item in a fast pass",
+                     "✅ **CSV report** — every file with score and decision for audit trails",
+                     "✅ **Safe re-scan** — restore from quarantine and rescan after tuning thresholds",
+                     "✅ **100 MB self-contained exe** — runtime bundled, classifier downloads separately, offline after that, MIT"
+                 ],
+    "compare":  [
+                    "| Feature | **nsfw-scan** | Cloud moderation APIs | Python scripts | Dataset checkers online |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Paid per call | Free, OSS | Free accounts |",
+                    "| Open source | **Yes** | No | Yes | No |",
+                    "| Images stay local | **Yes** | No upload | Yes | No upload",
+                    "| Quarantine workflow | **Yes** | No | No | No",
+                    "| Keyboard review pass | **Yes** | No | No | Partial",
+                    "| Portable, no install | **Yes, 100 MB** | API only | Python env | Browser"
+                ],
+    "faqQ":  "how to scan a large image dataset for NSFW content without uploading it?",
+    "faqA":  "Moderation APIs want per-image fees and a full upload of private datasets, and open scripts stop at printing scores. nsfw-scan runs the classifier locally and gives you a quarantine folder plus a keyboard review pass. It is a 100 MB portable exe, MIT, offline, and nothing leaves the machine.",
+    "s1":  "Dark scan view (#121417, red #EF4444): scan progress at 61 percent over a 12,400 file set, score histogram right, flagged count chip reading 37 items.",
+    "s2":  "Review grid: flagged thumbnails with score badges, keep and quarantine buttons highlighted, keyboard hint strip reading arrows to move, space to keep.",
+    "s3":  "Quarantine summary: 37 files listed with original paths, manifest export button, restore selected action, folder size chip reading 214 MB quarantined."
+}
